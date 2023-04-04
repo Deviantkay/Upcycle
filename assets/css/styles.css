@@ -219,7 +219,7 @@ input {
 
 .nav__logo,
 .nav__toggle {
-  color: var(--text-color);
+  color: var(--white-color);
 }
 
 .nav__logo {
@@ -309,15 +309,16 @@ input {
 }
 
 /*=============== HOME ===============*/
-#home {
-  margin-bottom: 25rem;
+#home{
+  margin-bottom: 10rem;
 }
+
 .home__vid {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   min-height: 100vh;
   object-fit: cover;
   object-position: 83%;
@@ -824,12 +825,6 @@ input {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-
-@media screen and (max-width:767px){
-  #home {
-      margin-bottom: 10rem;
-    }
 }
 
 @media screen and (min-width: 768px) {
