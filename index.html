@@ -1,1 +1,378 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>UpCycle.</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><i>UpCycle.</i></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link"><i>UpCycle.</i> Craft</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#animate" class="nav__link"><i>UpCycle.</i> Animate</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Register</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Login</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__vidcontainer">
+                    <video autoplay muted loop class="home__vid">
+                        <source src="https://github.com/Deviantkay/Upcycle/blob/main/assets/vid/herovid.mp4?raw=true" type="video/mp4">
+                        <!-- Tambahkan source video lainnya jika diperlukan -->
+                    </video>
+                    <div class="home__overlay"></div>
+                </div>
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__data-title">Jangan <b>Ragu</b> <br> Mulai <b>Perubahan!</b></h1>
+                        <a href="#" class="button">Daftar Sekarang</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Apa itu <i>Upcycle.</i></h2>
+                        <p class="about__description">Sebagai perusahaan bank sampah kekinian, <i>UpCycle.</i> memiliki misi untuk memperbaiki lingkungan dengan mengajak masyarakat
+                        untuk mengoptimalkan potensi sampah dan membantu mengurangi dampak negatif sampah terhadap lingkungan. Dengan
+                        mengoptimalkan Bank Sampah, UpCycle. Berusaha memberikan pengetahuan pengolahan kembali sampah yang dapat di daur ulang
+                        menjadi bahan yang berguna bagi masyarakat.
+                        </p>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.png" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.png" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">discover the Most <br> Interesting Upcycling Items</h2>
+                <p class="section__subtitle">Swipe rigth or left to see more</p>
+
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Table and Shelves</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Lamp Ornament</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Seat</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Flower Pot / Vase</h2>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 5 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover5.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Candle Container</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="animate section" id="animate">
+                <h2 class="section__title">With Our Experience <br> We Will Serve You</h2>
+
+                <div class="animate__section">
+                    <div class="card-grid">
+                        <a class="animate__card" href="#">
+                            <div class="card__background"
+                                style="background-image: url(assets/img/animate1.jpg)">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__subtitles">Let's DIY</p>
+                                <h3 class="card__heading">Wall Flowerpot</h3>
+                            </div>
+                        </a>
+                        <a class="animate__card" href="#">
+                            <div class="card__background"
+                                style="background-image: url(assets/img/animate2.jpg)">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__subtitles">Let's DIY</p>
+                                <h3 class="card__heading">Cabinet</h3>
+                            </div>
+                        </a>
+                        <a class="animate__card" href="#">
+                            <div class="card__background"
+                                style="background-image: url(assets/img/animate3.jpg)">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__subtitles">Let's DIY</p>
+                                <h3 class="card__heading">Stool</h3>
+                            </div>
+                            </li>
+                        <a class="animate__card" href="#">
+                            <div class="card__background"
+                                style="background-image: url(assets/img/animate4.jpg)">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__subtitles">Let's DIY</p>
+                                <h3 class="card__heading">Box</h3>
+                            </div>
+                        </a>
+                        <a class="animate__card" href="#">
+                            <div class="card__background" style="background-image: url(assets/img/animate5.jpg)">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__subtitles">Let's DIY</p>
+                                <h3 class="card__heading">Pencil Bag</h3>
+                            </div>
+                        </a>
+                        <a class="animate__card" href="#">
+                            <div class="card__background" style="background-image: url(assets/img/animate6.jpg)">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__subtitles">Let's DIY</p>
+                                <h3 class="card__heading">Post Box</h3>
+                            </div>
+                        </a>
+                        <a class="animate__card" href="#">
+                            <div class="card__background" style="background-image: url(assets/img/animate7.jpg)">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__subtitles">Let's DIY</p>
+                                <h3 class="card__heading">Table Flowerpot</h3>
+                            </div>
+                            </li>
+                        <a class="animate__card" href="#">
+                            <div class="card__background" style="background-image: url(assets/img/animate8.png)">
+                            </div>
+                            <div class="card__content">
+                                <p class="card__subtitles">Let's DIY</p>
+                                <h3 class="card__heading">Furnace</h3>
+                            </div>
+                        </a>
+                    <div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="https://github.com/Deviantkay/Upcycle/blob/main/assets/vid/video.mp4?raw=true" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title"><i>UpCycle.</i></h3>
+                        <p class="footer__description">Jangan <b>Ragu</b> <br> Mulai <b>Perubahan!</b>
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#about" class="footer__link">About</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#discover" class="footer__link"><i>UpCycle.</i> Craft</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#animate" class="footer__link"><i>UpCycle.</i> Animate</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link"><i>UpCycle.</i> Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 <i>UpCycle.</i></p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
