@@ -807,6 +807,12 @@ input {
   }
 }
 
+@media screen and (max-width: 568px) {
+  #home{
+    margin-bottom: 25rem;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .video__container {
