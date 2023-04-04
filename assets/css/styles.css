@@ -811,6 +811,9 @@ input {
   #home{
     margin-bottom: 15rem;
   }
+  .sponsor__img{
+    width: 30px;
+  }
 }
 
 /* For medium devices */
