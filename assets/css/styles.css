@@ -805,6 +805,9 @@ input {
   .video__container {
     padding: 0;
   }
+  .sponsor__container {
+    row-gap: .5rem;
+  }
 }
 
 @media screen and (max-width: 568px) {
