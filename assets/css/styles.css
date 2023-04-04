@@ -309,9 +309,6 @@ input {
 }
 
 /*=============== HOME ===============*/
-#home{
-  margin-bottom: 5rem;
-}
 .home__vid {
   position: absolute;
   top: 0;
@@ -392,6 +389,10 @@ input {
 }
 
 /*=============== ABOUT ===============*/
+#about {
+  margin-top: clamp(150px, calc(160vh - var(--header-height) - 100%), 1885px);
+}
+
 .about__data {
   text-align: center;
 }
@@ -1034,4 +1035,40 @@ input {
   .home__vid {
     height: 640px;
   }
+}
+
+@media screen and (max-height: 1885px) {
+  #about {
+    margin-top: calc(160vh - var(--header-height) - 100%);
+  }
+}
+
+@media screen and (max-height: 1480px) {
+  #about {
+    margin-top: calc(170vh - var(--header-height) - 100%);
+  }
+}
+
+@media screen and (max-height: 1180px) {
+  #about {
+    margin-top: calc(180vh - var(--header-height) - 100%);
+  }
+}
+
+@media screen and (max-height: 980px) {
+  #about {
+    margin-top: calc(190vh - var(--header-height) - 100%);
+  }
+}
+
+@media screen and (max-height: 780px) {
+  #about {
+    margin-top: calc(200vh - var(--header-height) - 100%);
+  }
+}
+
+@media screen and (min-height:2590px){
+  #about {
+      margin-top: calc(140vh - var(--header-height) - 100%);
+    }
 }
