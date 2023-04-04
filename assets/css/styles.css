@@ -235,7 +235,7 @@ input {
   position: relative;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 899px) {
   .nav__menu {
     position: fixed;
     background-color: var(--body-color);
@@ -843,34 +843,43 @@ input {
   }
 }
 
+@media screen and (min-width: 900px) {
+  .nav {
+      height: calc(var(--header-height) + 1.5rem);
+    }
+  
+    .nav__link {
+      color: var(--white-color);
+      text-transform: initial;
+    }
+  
+    .nav__link:hover {
+      color: var(--white-color);
+    }
+  
+    .nav__dark {
+      position: initial;
+    }
+  
+    .nav__menu {
+      display: flex;
+      column-gap: 1rem;
+    }
+  
+    .nav__list {
+      flex-direction: row;
+      column-gap: 4rem;
+    }
+  
+    .nav__toggle,
+    .nav__close {
+      display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
-  }
-  .nav {
-    height: calc(var(--header-height) + 1.5rem);
-  }
-  .nav__link {
-    color: var(--white-color);
-    text-transform: initial;
-  }
-  .nav__link:hover {
-    color: var(--white-color);
-  }
-  .nav__dark {
-    position: initial;
-  }
-  .nav__menu {
-    display: flex;
-    column-gap: 1rem;
-  }
-  .nav__list {
-    flex-direction: row;
-    column-gap: 4rem;
-  }
-  .nav__toggle,
-  .nav__close {
-    display: none;
   }
   .change-theme-name {
     display: none;
@@ -1037,27 +1046,9 @@ input {
   }
 }
 
-@media screen and (max-height: 1885px) {
+@media screen and (min-height:780px) {
   #about {
-    margin-top: calc(160vh - var(--header-height) - 100%);
-  }
-}
-
-@media screen and (max-height: 1480px) {
-  #about {
-    margin-top: calc(170vh - var(--header-height) - 100%);
-  }
-}
-
-@media screen and (max-height: 1180px) {
-  #about {
-    margin-top: calc(180vh - var(--header-height) - 100%);
-  }
-}
-
-@media screen and (max-height: 980px) {
-  #about {
-    margin-top: calc(190vh - var(--header-height) - 100%);
+    margin-top: calc(200vh - var(--header-height) - 99%);
   }
 }
 
@@ -1065,10 +1056,4 @@ input {
   #about {
     margin-top: calc(200vh - var(--header-height) - 100%);
   }
-}
-
-@media screen and (min-height:2590px){
-  #about {
-      margin-top: calc(140vh - var(--header-height) - 100%);
-    }
 }
