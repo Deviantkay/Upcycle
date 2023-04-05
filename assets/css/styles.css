@@ -314,8 +314,7 @@ input {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
-  min-height: 100vh;
+  height: 100%;
   object-fit: cover;
   object-position: 83%;
 }
@@ -325,9 +324,9 @@ input {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
-  min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6); /* Opasitas 50% */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Opasitas 60% */
 }
 
 .home__container {
@@ -389,21 +388,12 @@ input {
 }
 
 /*=============== ABOUT ===============*/
-#about {
-  margin-top: calc(120vh - var(--header-height) - 100%);
-}
-
-.about__data {
-  text-align: center;
+.about {
+  margin-top: 10vh;
 }
 
 .about__container {
   row-gap: 2.5rem;
-}
-
-.about__description {
-  margin-bottom: var(--mb-2);
-  margin-right: var(--mb-1);
 }
 
 .about__img {
@@ -812,7 +802,6 @@ input {
 }
 
 @media screen and (max-width: 568px) {
-
   .sponsor__container {
     row-gap: 1.5rem;
   }
@@ -1024,73 +1013,5 @@ input {
   }
   .footer__content {
     justify-items: center;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
-  body {
-    margin: 0;
-  }
-  .home__container,
-  .home__vid {
-    height: 640px;
-  }
-}
-@media screen and (max-height: 1080px) {
-  #about {
-    margin-top: calc(120vh - var(--header-height) - 100%);
-  }
-}
-@media screen and (max-height: 615px) {
-  #about {
-    margin-top: calc(150vh - var(--header-height) - 100%);
-  }
-}
-@media screen and (max-height: 495px) {
-  #about {
-    margin-top: calc(180vh - var(--header-height) - 100%);
-  }
-}
-@media screen and (max-height: 410px) {
-  #about {
-    margin-top: calc(210vh - var(--header-height) - 100%);
-  }
-}
-@media screen and (max-height: 355px) {
-  #about {
-    margin-top: calc(240vh - var(--header-height) - 100%);
-  }
-}
-@media screen and (max-height: 310px) {
-  #about {
-    margin-top: calc(270vh - var(--header-height) - 100%);
-  }
-}
-@media screen and (max-height: 275px) {
-  #about {
-    margin-top: calc(300vh - var(--header-height) - 100%);
-  }
-}
-@media screen and (max-height: 245px) {
-  #about {
-    margin-top: calc(330vh - var(--header-height) - 100%);
-  }
-}
-@media screen and (max-height: 225px) {
-  #about {
-    margin-top: calc(360vh - var(--header-height) - 100%);
-  }
-}
-
-@media screen and (max-height:570px) and (max-width:530px){
-  #about{
-    margin-top: calc(100vh - var(--header-height) - 100%) !important;
   }
 }
