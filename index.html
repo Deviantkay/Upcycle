@@ -8,9 +8,6 @@
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -282,6 +279,50 @@
                     </div>
                 </div>
             </section>
+
+            <!--==================== CONTACT FORM ====================-->
+            <section class="contact-form" id="contact">
+                <div class="contact-box">
+            
+                    <div class="contact-title">
+                        <div>
+                            <h2>Hubungi Kami</h2>
+                            <p>Let's get in touch!</p>
+                        </div>
+                    </div>
+            
+                    <form id="myForm">
+                        <div class="name">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" />
+                        </div>
+            
+                        <div class="city">
+                            <label for="city">City</label>
+                            <input type="text" id="city" />
+                        </div>
+            
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" />
+                        </div>
+            
+                        <div class="zipCode">
+                            <label for="zipCode">Zip Code</label>
+                            <input type="number" id="zip-code" />
+                        </div>
+            
+                        <div class="check">
+                            <input type="checkbox" id="status" />
+                            <label for="name" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah
+                                benar dan telah sesuai</label>
+                        </div>
+            
+                        <button id="submit-form" type="submit" onsubmit="submit()">Submit</button>
+                        <div id="warning"></div>
+                    </form>
+                </div>
+            </section>
         </main>
 
         <!--==================== FOOTER ====================-->
@@ -352,7 +393,7 @@
                 </div>
 
                 <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2023 <i>UpCycle.</i></p>
+                    <p class="footer__copy">&#169; 2023 <i>UpCycle. This Page is a submission for <a href="https://skilvul.com">Skilvul</a> Assignment Project</i></p>
                     <div class="footer__terms">
                         <a href="#" class="footer__terms-link">Terms & Agreements</a>
                         <a href="#" class="footer__terms-link">Privacy Policy</a>
@@ -367,10 +408,10 @@
         </a>
 
         <!--=============== SCROLL REVEAL===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
         
         <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9.1.1/swiper-bundle.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
